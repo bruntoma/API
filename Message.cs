@@ -10,7 +10,7 @@ namespace api
     {
         public string Text { get; set; }
 
-        public Message(string message)
+        public Message(string message, int id)
         {
             this.Text = message;
         }
